@@ -1,5 +1,5 @@
 <h1 align="center">
-    <a href="https://emilydelacruz.com" target="_blank"><img src="https://emilydelacruz.com/files/connection.png" alt="atom graphic" width="80"></a>
+    <a href="https://emilydelacruz.com" target="_blank"><img src="https://emilydelacruz.com/files/connection.png" alt="atom graphic" width="85"></a>
     <br>
     Dev Challenges
 </h1>
