@@ -1,35 +1,30 @@
-# importing csv module 
-import csv 
+# install pandas (I used pip)
+# https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html
+
+# importing pandas package 
+import pandas as pd 
   
-# csv file name 
-filename = "../raw_data.csv"
+# making data frame from csv file  
+df = pd.read_csv("../raw_data.csv") 
   
-# initializing the titles and rows list 
-fields = [] 
-rows = [] 
+# test filtering with query method 
+#df.query('case_category == "Category A"') 
+
+# find count for each category
+categories_count = df.groupby('case_category')['id'].count()
+
+# find earlier case for each category
+earliest_cases = df.groupby('case_category')['case_date'].min()
+
+# find latest case for each category
+latest_cases = df.groupby('case_category')['case_date'].max()
   
-# reading csv file 
-with open(filename, 'r') as csvfile: 
-    # creating a csv reader object 
-    csvreader = csv.reader(csvfile) 
-      
-    # extracting field names through first row 
-    fields = next(csvreader) 
-  
-    # extracting each data row one by one 
-    for row in csvreader: 
-        rows.append(row) 
-  
-    # get total number of rows 
-    print("Total no. of rows: %d"%(csvreader.line_num)) 
-  
-# printing the field names 
-print('Field names are: ' + ', '.join(field for field in fields)) 
-  
-#  printing first 5 rows 
-print('\nFirst 5 rows are:\n') 
-for row in rows[5:10]: 
-    # parsing each column of a row 
-    for col in row: 
-        print("%10s"%col), 
-    print('\n') 
+# display summary
+print('\nThe number of cases in each category are:\n') 
+print(categories_count) 
+
+print('\nThe earliest case in each category:\n') 
+print(earliest_cases) 
+
+print('\nThe latest case in each category:\n') 
+print(latest_cases) 
