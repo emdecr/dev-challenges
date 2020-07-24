@@ -13,7 +13,7 @@ df = pd.read_csv("../raw_data.csv")
 # find count for each category
 categories_count = df.groupby('case_category')['id'].count()
 
-# find earlier case for each category
+# find earliest case for each category
 earliest_cases = df.groupby('case_category')['case_date'].min()
 
 # find latest case for each category
