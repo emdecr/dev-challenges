@@ -14,7 +14,7 @@
 
 <p align="center">
     <a href="#intro">Intro</a> |
-    <a href="#installation">Categories</a> |
+    <a href="#installation">Catalogue</a> |
     <a href="#credits">Credits</a> 
 </p>
 
@@ -22,9 +22,13 @@
 
 This is a library of coding challenges I've come across in interviews. It's a playground to keep working on my solutions, and keep a running log.
 
-## Categories
+## Catalogue
 
-Coming soon.
+### 20-07-23 [🔗](https://github.com/emdecr/dev-challenges/tree/master/20-07-23)
+
+Working with a CSV dataset. Summarizing data. Calculate a count for each unique value in a column (ie. How many times does a unique value appear in said column?). For each of those unique values, find the min (earliest) and max (latest) values (date type), found in a different column.
+
+Submitted language(s): PHP + SQL
 
 ## Credits
 
