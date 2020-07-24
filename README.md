@@ -20,7 +20,7 @@
 
 ## Intro
 
-This is a library of coding challenges I've come across in interviews. It's a playground to keep working on my solutions, and keep a running log.
+This is a library of coding challenges I've come across in interviews since July 2020. It's a playground to keep working on my solutions, and keep a running log.
 
 ## Catalogue
 
@@ -28,8 +28,7 @@ This is a library of coding challenges I've come across in interviews. It's a pl
 
 Working with a CSV dataset. Summarizing data. Calculate a count for each unique value in a column (ie. How many times does a unique value appear in said column?). For each of those unique values, find the min (earliest) and max (latest) values (date type), found in a different column.
 
-**Submitted language(s)**: PHP + SQL
-
+**Submitted language(s)**: PHP + SQL<br>
 **Alt language(s)**: Python
 
 ## Credits
