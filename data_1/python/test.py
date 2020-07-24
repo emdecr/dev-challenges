@@ -1,3 +1,6 @@
+# install pandas (I used pip)
+# https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html
+
 # importing pandas package 
 import pandas as pd 
   
