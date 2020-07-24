@@ -25,7 +25,7 @@
     FROM
     clean_data
     GROUP BY
-    Case_category";
+    case_category";
     // Store result
     $result = $connection->query($sql);
     // Check for result
