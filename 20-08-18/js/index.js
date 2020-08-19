@@ -1,4 +1,8 @@
+// Commented the solutions found here:
 // https://stackoverflow.com/questions/840781/get-all-non-unique-values-i-e-duplicate-more-than-one-occurrence-in-an-array
+
+// Made a gist:
+// https://gist.github.com/emdecr/7f72b69cbcf911df21f28193a520b5dd
 
 // Approach 1
 var names = ["Mike", "Matt", "Nancy", "Adam", "Jenny", "Nancy", "Carl"];
