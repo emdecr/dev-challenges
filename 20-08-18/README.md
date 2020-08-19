@@ -1,6 +1,6 @@
 # The Task
 
-Write a solution to get all non-unique values (i.e.: duplicate/more than one occurrence) in an array
+Write a solution to get all non-unique values (i.e.: duplicate/more than one occurrence) in an array.
 For example, if given the array ['water', 'juice', 'coffee', 'coffee', 'water', 'water', 'milk'], your solution should return ['water', 'coffee']
 
 Use JS.
